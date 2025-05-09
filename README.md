@@ -16,12 +16,15 @@ Built for real-time analysis, this project also features an interactive *dashboa
 ```bash
 git clone https://github.com/your-username/grievance-app.git
 cd grievance-app
+## run the app locally
+you can run this project on your local machine without any deployment
 
 2. Install dependencies
 pip install -r requirements.txt
 
 3. Run the app
-streamlit run grievance.py
+streamlit run grievance_app_project.py
+The app will open in your local browser
 ---
 🧠 How It Works
 Model: Logistic Regression trained on real-world complaint tweets
@@ -41,6 +44,11 @@ grievance-app/
 ├── requirements.txt         # Dependencies
 └── README.md                # This file
 
+📊 Dashboard Highlights:
+Category Distribution: Visual breakdown of complaints
+Word Cloud: Top terms used in complaints
+Organization Filter: See who’s getting tagged the most
+Search Tweets: Filter tweets by keyword or category
 ---
 🧪 Retrain the Model
 Want to retrain the model on updated data?
