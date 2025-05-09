@@ -32,7 +32,7 @@ Dashboard: Built with Matplotlib, Seaborn, and WordCloud
 📂 Project Structure
 
 grievance-app/
-├── grievance.py             # Streamlit app
+├── grievance_app_project.py             # Streamlit app
 ├── train_model.py           # Model training script
 ├── annotated.csv            # Sample dataset
 ├── logistic_model.pkl       # Trained model
